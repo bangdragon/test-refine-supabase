@@ -39,6 +39,7 @@ function App() {
                     {
                         element: <Signup/>,
                         path: "/signup",
+                        layout: false,
                     },
                 ] as typeof routerProvider.routes,
       }}
